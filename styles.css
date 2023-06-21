@@ -1,0 +1,36 @@
+:root {
+  --logo-color: #6070ff;
+  --navbar-list-color: #344563;
+  --navbar-list-hover-bg-color:#6070ff;
+  --navbar-list-active-bg-color:#2230d2;
+}
+
+.navbar-brand {
+  color: var(--logo-color) !important;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.nav-link {
+  color: var(--navbar-list-color)!important;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.nav-link:hover {
+    background-color:var(--navbar-list-hover-bg-color) !important;
+    color:#fff !important;
+    cursor: pointer;
+    border-radius: 0.56rem;
+    transition: all 0.2s ease-in-out 0.3s;
+}
+
+.nav-link:active {
+    background-color:var(--navbar-list-active-bg-color) !important;
+    color:#fff !important;
+    cursor: pointer;
+    border-radius: 0.56rem;
+    transition: all 0.2s ease-in-out 0.3s;
+}
