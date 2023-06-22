@@ -1,5 +1,3 @@
-
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -140,3 +138,4 @@ I would like to thank Microverse and the code reviewers.
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
