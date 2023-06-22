@@ -67,7 +67,7 @@ body {
 }
 
 h1 {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -75,22 +75,22 @@ h1 {
   color: #091e42;
 }
 
-.header-data p:nth-child(1n) {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  color: #344563;
-}
-
 .social-class p {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
+}
+
+.header-data p:nth-child(1n) {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #344563;
 }
 
 .fab {
@@ -187,8 +187,7 @@ h1 {
   margin: 0 80px;
 }
 
-
 .skill-item {
-  color:#253858;
+  color: #253858;
   background-color: #f7f7f9;
 }
