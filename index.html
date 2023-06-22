@@ -496,7 +496,7 @@
        </section>
           <!--end of about-myself section-->
       <!--contact section-->
-      <section id="contact" class=" bg-white mt-5">
+      <section id="contact" class="bg-white pt-3">
         <div class="contact-section ">
         <h2 class="text-center text-white contact-title">Contact Me</h2>
         <p class="text-center contact-content">
@@ -515,9 +515,6 @@
               name="name"
               required
             />
-            <div class="invalid-feedback">
-                Please enter letters only
-            </div>
           </div>
           <div class="mb-3">
             <label hidden for="email" class="form-label">Email</label>
@@ -529,9 +526,6 @@
               name="email"
               required
             />
-            <div class="invalid-feedback">
-                Please enter valid email
-            </div>
           </div>
           <div class="">
             <label hidden for="message">Message</label>
@@ -551,15 +545,6 @@
       <!--/end of contactsection-->
     </main>
     <!-- End of main body-->
-<script>
-  const form = document.querySelectorAll("form")
-      form.addEventListener('submit', function (event) {
-        if (!form.checkValidity()) {
-          event.preventDefault()
-        }
-        form.classList.add('was-validated')
-    })
-</script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
