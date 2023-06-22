@@ -1,8 +1,30 @@
 :root {
   --logo-color: #6070ff;
   --navbar-list-color: #344563;
-  --navbar-list-hover-bg-color:#6070ff;
-  --navbar-list-active-bg-color:#2230d2;
+  --navbar-list-hover-bg-color: #6070ff;
+  --navbar-list-active-bg-color: #2230d2;
+  --project-title-color: #091e42;
+  --card-client-color: #344563;
+  --card-role-color: #6b778c;
+  --button-color: #396df2;
+  --card-tags-color: #6070ff;
+  --card-tags-bg-color: #ebebff;
+  --main-bg-color: #e5e5e5;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--main-bg-color);
 }
 
 .navbar-brand {
@@ -13,26 +35,26 @@
 }
 
 .nav-link {
-  color: var(--navbar-list-color)!important;
+  color: var(--navbar-list-color) !important;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
 }
 
 .nav-link:hover {
-    background-color:var(--navbar-list-hover-bg-color) !important;
-    color:#fff !important;
-    cursor: pointer;
-    border-radius: 0.56rem;
-    transition: all 0.2s ease-in-out 0.3s;
+  background-color: var(--navbar-list-hover-bg-color) !important;
+  color: #fff !important;
+  cursor: pointer;
+  border-radius: 0.56rem;
+  transition: all 0.2s ease-in-out 0.3s;
 }
 
 .nav-link:active {
-    background-color:var(--navbar-list-active-bg-color) !important;
-    color:#fff !important;
-    cursor: pointer;
-    border-radius: 0.56rem;
-    transition: all 0.2s ease-in-out 0.3s;
+  background-color: var(--navbar-list-active-bg-color) !important;
+  color: #fff !important;
+  cursor: pointer;
+  border-radius: 0.56rem;
+  transition: all 0.2s ease-in-out 0.3s;
 }
 
 .header-section {
@@ -41,37 +63,132 @@
   background-repeat: no-repeat;
   min-height: 100vh;
   background-position-x: center;
+  border-radius: 0.56rem;
 }
 
 h1 {
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 60px;
-color: #091E42;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #091e42;
 }
 
 .header-data p:nth-child(1n) {
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 28px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
   color: #344563;
 }
 
 .social-class p {
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-  color: #7F8CFF;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
 }
 
 .fab {
-  color: #505F79;
+  color: #505f79;
+}
+
+.project-title {
+  color: var(--project-title-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.client {
+  color: var(--card-client-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.role {
+  color: var(--card-role-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.project-content {
+  color: var(--card-client-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  width: 80%;
+}
+
+.tags {
+  color: var(--card-tags-color);
+  background-color: var(--card-tags-bg-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.see-project {
+  color: var(--button-color);
+  width: 35%;
+  margin-top: 2rem;
+  border-radius: 0.56rem;
+  border: 1px solid var(--card-tags-color);
+  background-color: #fff;
+  padding: 0.5rem 1.5rem;
+}
+
+.card {
+  min-width: 100%;
+}
+
+.contact-section {
+  background-image: url("./images/contact\ form\ bgdesktop@1x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  padding: 6rem 33%;
+  border-top-left-radius: 12em;
+  background-color: var(--card-tags-color);
+}
+
+.contact-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.contact-content {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--card-tags-bg-color);
+}
+
+.get-touch {
+  align-items: center;
+  padding: 12px 16px;
+  width: 30%;
+  flex: center;
+  margin: 0 80px;
 }
 
 
+.skill-item {
+  color:#253858;
+  background-color: #f7f7f9;
+}
