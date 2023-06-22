@@ -35,26 +35,9 @@ body {
 }
 
 .nav-link {
-  color: var(--navbar-list-color) !important;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-}
-
-.nav-link:hover {
-  background-color: var(--navbar-list-hover-bg-color) !important;
-  color: #fff !important;
-  cursor: pointer;
-  border-radius: 0.56rem;
-  transition: all 0.2s ease-in-out 0.3s;
-}
-
-.nav-link:active {
-  background-color: var(--navbar-list-active-bg-color) !important;
-  color: #fff !important;
-  cursor: pointer;
-  border-radius: 0.56rem;
-  transition: all 0.2s ease-in-out 0.3s;
 }
 
 .header-section {
@@ -76,7 +59,7 @@ h1 {
 }
 
 .social-class p {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", san;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
